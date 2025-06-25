@@ -7,11 +7,12 @@ import { HeaderComponent } from '../../furniture/header/header.component';
 
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterModule, HerosectionComponent, ProductComponent,HeaderComponent]
+  imports: [RouterModule,ProductComponent, HeaderComponent, HerosectionComponent]
 })
 export class AppComponent {
   title = 'angularbasics';

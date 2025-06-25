@@ -1,3 +1,59 @@
-#section class p,h2{
+.content h1
+{
+ font-family: poppins;
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 100%;
+ text-align: center;
+ 
+}
+.content layout
+{
+  width: 300px;
+  height:48px;
+  Top:869px;
+  Left: 543px;  
+
+}
+.content p{
     text-align: center;
+    font-size:20px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 100%;
+    color:#666666;
+}
+.browse-range {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+
+.categories {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.category img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.category h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #222;
+}
+
+.category:hover {
+  transform: scale(1.03);
+  cursor: pointer;
 }
