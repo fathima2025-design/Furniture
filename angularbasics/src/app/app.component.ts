@@ -3,6 +3,8 @@ import { RouterModule } from '@angular/router';
 import { HerosectionComponent } from "../../furniture/herosection/herosection.component";
 import { ProductComponent } from "../../furniture/product/product.component";
 import { HeaderComponent } from '../../furniture/header/header.component';
+import { ParentComponent } from "../../furniture/parent/parent.component";
+import { ChildComponent } from "../../furniture/child/child.component";
 
 
 
@@ -12,7 +14,7 @@ import { HeaderComponent } from '../../furniture/header/header.component';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterModule,ProductComponent, HeaderComponent, HerosectionComponent]
+  imports: [RouterModule, ProductComponent, HeaderComponent, HerosectionComponent, ParentComponent, ChildComponent]
 })
 export class AppComponent {
   title = 'angularbasics';
